@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link rel="stylesheet" href="./assest/css/style.css">
+</head>
+<body class="dash-body">
+     <div class="dash-nav">
+        <div class="dash-nav-container">
+            <div class="search-box">
+                <input type="search" id="search" placeholder="Search" >
+                <i class="fa-solid fa-magnifying-glass-location"></i>
+            </div>
+            <button class="dash-nav-btn"><a href="./assest/sign-up.html">Sign-Up</a></button>
+            <button  class="dash-nav-btn"><a href="./assest/log-in.html">Log In</a></button>
+        </div>
+     </div>
+
+     <div class="dash-head-container">
+        <div class="dash-heading">
+            <h1>Thoughts, ideas and stories</h1>
+            <p>A space where creativity flows, ideas take shape, and stories come to life. Dive in, explore, and connect with insights that inspire and resonate.</p>
+        </div>
+        <div class="line"></div>
+     </div>
+
+     <div class="main-container">
+        <div class="trending-line">
+            <p class="trending-head">Trending Topics</p>
+            <button class="trending-btn">Technology</button>
+            <button class="trending-btn">Design Thinking</button>
+            <button class="trending-btn">Web3</button>
+            <button class="trending-btn">Programming</button>
+            <button class="trending-btn">AI</button>
+        </div>
+        <div class="box">
+        <div class="left-container">
+            <div class="left-box-1">
+                <h3>Blog Topics</h3>
+                <p>Design</p>
+                <p>Company</p>
+                <p>Technology</p>
+                <p>Crypto</p>
+                <p>Work</p>
+            </div>
+            <div class="left-box-1">
+                <h3>Guide and tools </h3>
+                <p>Design</p>
+                <p>Company</p>
+                <p>Technology</p>
+                <p>Crypto</p>
+                <p>Work</p>
+            </div>
+
+        </div>
+        <div class="right-container">
+            <h1>Simple Blog App</h1>
+            <div class="form-container">
+                <input type="text" id="title" placeholder="Post Title" required>
+                <textarea id="content" placeholder="Post Content" required></textarea>
+                <button class="blog-btn" id="submit">Submit Post</button>
+            </div>
+            <div id="blog-posts" class="blog-posts"></div>
+        </div>
+        </div>
+
+     </div>
+
+     <div class="footer">
+        <div class="foot-container">
+            <h1>stay up to data</h1>
+            <h2>post your blog</h2>
+            <p>firstly sign up than post you blog</p>
+        </div>
+     </div>
+
+
+    <script type="module" src="./assest/js/fire-base.js"></script>
+    <script type="module" src="./assest/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="icon" href="./images/sign_up_logo-removebg-preview.png">
+    <link rel="stylesheet" href="/assest/css/style.css">
+</head>
+
+<body class="sign-up-body">
+    <div class="nav">
+        <div class="nav-container">
+            <h1>Personal Blogging App</h1>
+            <div><a href="./log-in.html" class="button-link">Log In</a></div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="sign-up">
+            <h1 class="heading">Hello, friend!</h1>
+
+            <div class="text">
+                <img src="https://i.postimg.cc/1zgS8WTF/user.png" alt="icon" height="20">
+                <input id="user-name" type="text" placeholder="Name" required>
+            </div>
+
+            <div class="text">
+                <img src="https://i.postimg.cc/DZBPRgvC/email.png" alt="icon" height="12">
+                <input id="user-email" type="email" placeholder="Email" required>
+            </div>
+
+            <div class="text">
+                <img src="https://i.postimg.cc/Nj5SDK4q/password.png" alt="icon" height="20">
+                <input id="user-password" type="password" placeholder="Password" required>
+            </div>
+
+            <button class="create-account" id="sign-up">CREATE ACCOUNT</button>
+            <p class="conditions">Already have an account? <a href="./log-in.html">Sign in</a></p>
+        </div>
+    </div>
+
+    <script type="module" src="./js/fire-base.js"></script>
+    <script type="module" src="./js/app.js"></script>
+
+</body>
+
+</html>
